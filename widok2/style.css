@@ -1,0 +1,191 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+  .row{
+    text-align: center;
+    display: flex;
+    justify-content:  center;
+    flex-flow: wrap;
+}   
+
+
+.flex-6{
+  display: flex;
+  flex-flow: wrap;
+  flex:1 1 0 ;
+  background-color: #e8ffff;
+  height: 65vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vh;
+}
+
+
+.flex-12{
+    flex-direction: row;
+    flex:1 1 100% ;
+    background-color: #e6ecec;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3vh;
+}
+
+
+.centered {
+  display: flex;
+  position: absolute;
+  top: 10%;
+}
+
+
+.centered2 {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  transform: translate(30%, 0%);
+}
+
+
+.centered_stop {
+  display: flex;
+  position: absolute;
+  top: 70%;
+}
+
+.nap1{
+  color: #000000;
+  font-family: 'Kaushan Script';
+  font-size: 4vh;
+  margin-top: 20%;
+}
+
+.nap2{
+  color: #ff6781;
+  font-family: 'Kaushan Script';
+  font-size: 7vh;
+}
+
+
+.napstop1{
+  color: #000000;
+  font-family: 'Kaushan Script';
+  font-size: 4vh;
+  margin-top: 15%;
+}
+
+.napstop2{
+  color: #ff6781;
+  font-family: 'Kaushan Script';
+  font-size: 7vh;
+}
+
+.tekst{
+  color: #886a6f;
+  font-family: 'Kaushan Script';
+  font-size: 2vh;
+  text-align: left;
+}
+
+
+.explore{
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: 'Kaushan Script';
+  font-size: 2vh;
+
+  display: flex;
+  position: absolute;
+  transform: translate(0%, 250%);
+  padding: 10px;
+
+
+}
+
+
+
+.explore_stop{
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: 'Kaushan Script';
+  font-size: 2vh;
+
+  padding: 5px;
+  margin-left: 5vh;
+  
+}
+
+.odnosniki{
+  display: flex;
+  clear: both;
+  
+}
+
+.wyszukiwarka{
+  position: absolute;
+  transform: translate(-80%, 120%);
+  border-radius: 5px;
+
+}
+
+input{
+  font-family: 'Kaushan Script';
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.input-container {
+  display: flex;
+  width: 280%;
+  color: white;
+  
+}
+
+.icon {
+  padding: 10px;
+  background: #ff6781;
+  color: white;
+  text-align: center;
+  
+}
+
+.input-field {
+  width: 100%;
+  outline: none;
+
+}
+
+i{
+  font-size: 2vh;
+  color: black;
+  border-radius: 5px;
+
+}
+
+  .obramowanie{
+    height: 450px;
+    width: 60%;
+    border: 1vh solid rgb(235, 235, 90);
+    position: relative;
+    transform: translate(-35%, -5%);
+
+
+  }
+
+  img{
+
+    height: 45%;
+    width: 31%;
+    transform: translate(-30%, -0%);
+
+
+    position: absolute;
+  }
